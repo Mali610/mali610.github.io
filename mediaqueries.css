@@ -1,0 +1,137 @@
+@media (max-width:600px){
+    .home-container{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        justify-content: center;
+
+
+    }
+    .pro-pic{
+        width: 300px;
+        position: relative;
+        top: 10vh;
+        left: 20%;
+        border-radius: 500px;
+}
+#desktop-nav {
+    background-color: #e9e5e5; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    max-width: 100%;
+}
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+    justify-content: space-between;
+    font-size: 4rem;
+    
+}
+#home{
+    height: 100vh;
+    align-items: center;
+    max-width: 100%;
+}
+.hello-text{
+    text-align: center;
+    top: 20vh;
+    max-width: 300px;
+    align-items: center;
+    display: block;
+    left: 20%;
+    
+}
+.hello-text-1{
+    font-size: 4rem;
+    font-family: 'roboto', sans-serif;
+    max-width: 100%;
+}
+
+.hello-text-2 h2{
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.hello-text-3{
+    font-size: 3rem;
+    align-items: center;
+    max-width: 100%;
+}
+.cv {
+    border-style: solid;
+    border-width: 0.2rem;
+    width: fit-content;
+    align-content: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 40px;
+    left: 60px;
+}
+.social-container{
+    display: flex;
+    padding: 2rem;
+    font-size: 6rem;
+    position: relative;
+    left: 40px;
+}
+
+.logo{
+    display: none;
+}
+.nav-links{
+    text-align: center;
+}
+
+
+/*about*/
+
+.about-container{
+    position: relative;
+    top: 300px;
+    display: block;
+}
+
+.about-text{
+    position: relative;
+    width: 380px;
+    left: 40px;
+}
+
+.about-topic{
+    position:relative;
+    left: 40px;
+}
+
+/*skills*/
+
+#skills{
+    position: relative;
+    top: 900px;
+}
+
+.skill-container{
+    display: block;
+    position: relative;
+    left:5%;
+
+}
+
+#contact{
+    position: relative;
+    top: 1800px;
+    left: 5%;
+}
+
+
+
+
+
+}

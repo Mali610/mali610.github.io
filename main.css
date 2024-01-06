@@ -1,0 +1,287 @@
+/*Header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4eeee;
+    scroll-behavior: smooth;
+}
+
+#desktop-nav {
+    background-color: #e9e5e5; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.social-container{
+    display: flex;
+    padding: 1px 40rem;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+    justify-content: space-between;
+    font-size: 2rem;
+    
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.home-container{
+    display: flex;
+    position: relative;
+    max-width: 1500px;
+    max-height: 875px;
+
+}
+
+.pro-pic{
+    width: 600px;
+    position: relative;
+    top: 10vh;
+    left: 15%;
+    border-radius: 300px;
+}
+
+.hello-text{
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    left: 10%;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    
+}
+
+.hello-text-1{
+    font-size: 4rem;
+    font-family: 'roboto', sans-serif;
+}
+
+.hello-text-2 h2{
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.hello-text-3{
+    font-size: 3rem;
+    align-items: center;
+}
+
+.cv {
+    border-style: solid;
+    border-width: 0.2rem;
+    width: fit-content;
+    align-content: center;
+    position: relative;
+    left: 41%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 40px;
+    
+}
+.cv a{
+    text-decoration: none;
+}
+
+.cv:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+#home{
+    height: 95vh;
+}
+
+
+
+.about-container{
+    display: flex;
+    position: relative;
+    top: 60px;
+    bottom: 20px;
+    margin: 0;
+    align-items: center;
+    max-height: 875px;
+}
+.about-text{
+    max-width: 600px;
+    text-align: justify;
+    position: relative;
+    border-style: solid;
+    padding: 2rem;
+    left: 5%;
+    border-width: 0.3rem;
+    border-radius: 30px;
+    top: 10px;
+    border-color: rgb(182, 124, 124);
+    font-size: 15px;
+    max-height: 875px;
+}
+
+.about-topic{
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 900;
+    position: relative;
+    padding: 2rem;
+    left: 15%;
+
+}
+
+#about{
+    top: 20px;
+    height: 95vh;
+}
+/*skills*/
+
+#skills{
+    height: 95vh;
+    align-items: center;
+    
+}
+
+.skill-topic-text{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.skill-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+.skill{
+    border-style: solid;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+
+.skill-name{
+    text-align: center;
+}
+
+/*contact*/
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 1rem;
+
+  }
+
+  .contact-info-upper-container:hover{
+    background-color:rgb(244, 242, 242) ;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  .contact-info-upper-container a{
+    text-decoration: none;
+    font-size: 2rem;
+  } 
+  .contact-info-upper-container i{
+    font-size: 2rem;
+  } 
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+    font-size: 10rem;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+
+  #contact{
+    height: 95vh;
+    margin-top: 0px;
+  }
+
+  .title-contact{
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+
+  footer {
+    height: 10vh;
+    margin: 0 rem;
+    background-color: rgb(200, 197, 197);
+    
+  }
+  
+  footer p {
+    text-align: center;
+  }
+
+  .nav-links{
+    text-align: center;
+  }
+
